@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 *:root {
@@ -14,9 +15,10 @@
 
 .bento-box{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
     grid-template-rows: auto;
     gap: 20px;
+    max-width: 800px;
 }
 
 .box{
