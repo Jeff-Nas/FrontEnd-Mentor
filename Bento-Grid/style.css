@@ -21,7 +21,7 @@ body {
     background-color: black;
 }
 
-.bento-box{
+.bento-box-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
@@ -32,7 +32,7 @@ body {
     padding: 20px;
 }
 
-.box{
+.bento-box-item--element{
     /* width: 200px;
     height: 200px;
     overflow: hidden; */
