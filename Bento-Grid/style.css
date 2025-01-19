@@ -32,58 +32,63 @@ body {
     ;
     max-width: 60rem;
     margin-inline: auto;
-    gap: 1em;
+    gap: 1rem;
 }
+
 .bento-box-container > *, .inside-element {
     display: grid;
+    gap: 1rem;
+}
+
+.inside-element {
+    grid-template-columns: 1fr 1fr;
 }
 
 .bento-box-item--element{
-    /* width: 200px;
-    height: 200px;
-    overflow: hidden; */
     padding: 10px;
     border-radius: 10px;
+}
+
+.column-1 {
+    grid-area: column1;
+}
+
+.column-2 {
+    grid-area: column2;
+}
+
+.column-3 {
+    grid-area: column3;
+}
+
+.column-4 {
+    grid-area: column4;
+    grid-template-columns: .95fr 2fr;
 }
 
 .box1 {
     background-color: var(--Yellow-white);
 }
 .box2 {
-    grid-column: span 2;
-    grid-row: span 1;
     background-color: var(--Purple);
 }
-
 .box3 {
-    grid-column: span 1;
-    grid-row: span 2;
     background-color: var(--Purple-white);
 }
-
 .box4 {
-    grid-column: span 1;
-    grid-row: span 2;
     background-color: var(--Yellow);
 }
-
 .box5 {
     background-color: var(--White);
-
 }
-
 .box6 {
     background-color: var(--Yellow);
 }
-
 .box7 {
     background-color: var(--White);
 }
-
 .box8 {
     background-color: var(--Purple);
-    grid-column: span 2;
-    grid-row: span 1;
 }
 
 img {
