@@ -6,8 +6,8 @@
 }
 
 *:root {
-    --Purple-white: hsl(254, 88%, 90%);
-    --Purple: hsl(256, 67%, 59%);
+    --Purple-white: hsl(268, 91%, 83%);
+    --Purple: hsl(270, 95%, 59%);
     --Yellow-white: hsl(31, 66%, 93%);
     --Yellow: hsl(39, 100%, 71%);
     --White: hsl(0, 0%, 100%);
@@ -24,11 +24,9 @@ body {
 
 h2 {
     font-family: 'DM Sans', serif;
-    /* font-size: 18px; */
     font-weight: 500; 
     line-height: 1; 
     margin: 0; 
-    letter-spacing: -1px;
 }
 
 .bento-box-container{
@@ -40,7 +38,7 @@ h2 {
         'col1 col2 col3'
         'col1 col4 col4'
     ;
-    max-width: 55rem;
+    max-width: 52rem;
     margin-inline: auto;
     gap: 1rem;
 }
@@ -97,28 +95,72 @@ h2 {
 }
 .box4 {
     background-color: var(--Yellow);
-    
+    padding: 1em 0.6em 0 1em;
+    font-size: 18px;
+
 }
 
-.box4 > img {
-    width: 80%;
+.box4  img {
+    width: 95%;
     margin-top: 1em;
 }
 
-
+/* COLUNA2 */
 .box2 {
     background-color: var(--Purple);
+    color: var(--White);
+    text-align: center;
+    font-size: 25px;
+    padding: 0.6em;
+    justify-content: space-evenly;
 }
-.box3 {
-    background-color: var(--Purple-white);
+.box2 span {
+    color: var(--Yellow);
+}
+.box2 img {
+    width: 35%;
+    height: auto;
+    margin-top: 10px;
+}
+.box2 figcaption {
+    font-size: 14px;
 }
 
 .box5 {
     background-color: var(--White);
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding: 1em;
+   
+}
+.box5 img {
+    width: 145%;
+}
+
+.box5 h2 {
+    line-height: .8;
 }
 .box6 {
     background-color: var(--Yellow);
 }
+
+/* COLUNA3 */
+
+.box3 {
+    background-color: var(--Purple-white);
+    padding: 1.5em;
+    overflow: hidden;
+}
+.box3 img {
+    width: 180%;
+    height: auto;
+    margin: 1em 0 0.8em 0;
+}
+.box3 figcaption {
+    line-height: .8;
+}
+
+
 .box7 {
     background-color: var(--White);
 }
