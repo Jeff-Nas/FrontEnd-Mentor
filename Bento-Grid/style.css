@@ -110,8 +110,8 @@ h2 {
     background-color: var(--Purple);
     color: var(--White);
     text-align: center;
-    font-size: 25px;
-    padding: 0.6em;
+    font-size: 28px;
+    padding: 1.5em 0.6em 1.5em 0.6em;
     justify-content: space-evenly;
 }
 .box2 span {
@@ -120,7 +120,7 @@ h2 {
 .box2 img {
     width: 35%;
     height: auto;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .box2 figcaption {
     font-size: 14px;
@@ -128,13 +128,13 @@ h2 {
 
 .box5 {
     background-color: var(--White);
-    justify-content: space-evenly;
     overflow: hidden;
-    padding: 1em;
-   
+    height: 11.5em;
 }
+
 .box5 img {
-    width: 145%;
+    width: 140%;
+    padding: 1em;
 }
 
 .box5 h2 {
@@ -142,6 +142,18 @@ h2 {
 }
 .box6 {
     background-color: var(--Yellow);
+    padding: 1em;
+    height: 11.5em;
+    /* justify-content: space-between; */
+}
+
+.box6 img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.box6 h2 {
+    line-height: .8;
 }
 
 /* COLUNA3 */
